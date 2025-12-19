@@ -18,17 +18,9 @@ document.querySelector('#contact-link').addEventListener('click', (event) => {
  history.pushState(stateObj, "contact", "?contact"); 
  RenderContactPage(); 
 });
-document.getElementById('theme-toggle').addEventListener('click', () => {
- document.body.classList.toggle('dark-mode');
-});
 function RenderAboutPage() { 
  document.querySelector('main').innerHTML = `
  <h1 class="title">About Me</h1>
- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>`;
-}
-function RenderContactPage() { 
- document.querySelector('main').innerHTML = `
- <h1 class="title">Contact with me</h1>
  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>`;
 }
 function RenderContactPage() { 
