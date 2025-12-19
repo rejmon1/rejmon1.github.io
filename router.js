@@ -1,6 +1,6 @@
 let pageUrls = { 
- about: '/index.html?about', 
- contact:'/index.html?contact' 
+ about: '?about', 
+ contact:'?contact' 
 };
 function OnStartUp() { 
  popStateHandler(); 
